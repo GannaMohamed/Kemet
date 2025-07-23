@@ -13,7 +13,6 @@
     --medium: 500;
     --semibold: 600;
     --bold: 700;
-
 }
 
 .centered {
@@ -38,13 +37,15 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
     margin: auto;
   display: flex;
   flex-direction: column;
-  scroll-behavior: smooth;
     overflow-y: auto;
-  scroll-behavior: smooth;
   max-height: 100vh; /* or whatever height */
 }
 
