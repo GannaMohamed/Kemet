@@ -1,10 +1,8 @@
-
 import apple from "../Assets/apple icon.svg";
 import google from "../Assets/google play icon.svg";
 import mockup1 from "../Assets/home screen 1.svg";
 import mockup2 from "../Assets/home screen 2.svg";
 export default function Hero() {
-
   return (
     <div className="hero" id="#Hero">
       <div
@@ -34,10 +32,10 @@ export default function Hero() {
         {/* MOCKUP */}
         <div className="heroMockup row">
           <div>
-            <img data-aos="fade-up" src={mockup1} className="mockup1Img" />
+            <img data-aos="fade-right" src={mockup1} className="mockup1Img" />
           </div>
           <div>
-            <img src={mockup2} />
+            <img data-aos="fade-left" src={mockup2} />
           </div>
         </div>
       </div>

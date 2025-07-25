@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import img1 from "../Assets/prod1.svg";
 import img2 from "../Assets/prod2.svg";
 import img3 from "../Assets/prod3.svg";
 import img4 from "../Assets/prod4.svg";
+import Aos from "aos";
 
 export default function Collections() {
   return (
